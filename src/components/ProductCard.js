@@ -40,10 +40,7 @@ export default function ProductCard(props) {
 			</CardActionArea>
 			<CardActions>
 				<Button size="small" color="primary">
-					Share
-				</Button>
-				<Button size="small" color="primary">
-					Learn More
+					Detail
 				</Button>
 			</CardActions>
 		</Card>

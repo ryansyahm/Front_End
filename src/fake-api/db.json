@@ -1,173 +1,156 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "email": "fikriansyah51@gmail.com",
-      "password": "asd123"
-    },
-    {
-      "id": 2,
-      "email": "fikrikurniawan51@yahoo.co.id",
-      "password": "asd123"
-    },
-    {
-      "email": "abc@gmail.com",
-      "password": "asd",
-      "id": 3
-    },
-    {
-      "email": "1231@gmail.com",
-      "password": "asd",
-      "id": 4
-    },
-    {
-      "email": "123asd@gmail.com",
-      "password": "bTi728ne87_",
-      "id": 5
-    }
-  ],
-  "categories": [
-    {
-      "id": 0,
-      "category": "All"
-    },
-    {
-      "id": 1,
-      "category": "iPhone"
-    },
-    {
-      "id": 2,
-      "category": "Macbook"
-    },
-    {
-      "id": 3,
-      "category": "iPad"
-    }
-  ],
-  "products": [
-    {
-      "id": 3,
-      "name": "iPhone 12",
-      "categoryID": 1,
-      "price": 8000000,
-      "stock": 5,
-      "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/a/ia1910581224451.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Macbook Pro",
-      "categoryID": 2,
-      "price": 12000000,
-      "stock": 5,
-      "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/m/a/macbook-pro-2020-2port-spacegray-1_8_1.jpg"
-    },
-    {
-      "id": 5,
-      "name": "iPad Pro",
-      "categoryID": 3,
-      "price": 14000000,
-      "stock": 5,
-      "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/ipad-air-3-wi-fi-space-gray.jpg"
-    },
-    {
-      "name": "iPhone 11",
-      "categoryID": 1,
-      "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/a/p/apple_iphone_11_pro_max_silver_new_1.jpg",
-      "price": 17000000,
-      "stock": 10,
-      "id": 6
-    }
-  ],
-  "cart": [
-    {
-      "name": "iPhone 8",
-      "qty": 1,
-      "price": 5000000,
-      "userID": 0,
-      "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-8-gold_4_1_2.jpg",
-      "id": 1
-    },
-    {
-      "name": "iPhone 12",
-      "qty": 1,
-      "price": 8000000,
-      "userID": 5,
-      "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/a/ia1910581224451.jpg",
-      "id": 2
-    }
-  ],
-  "transaction": [
-    {
-      "date": "11-11-2020",
-      "total": 76000000,
-      "items": [
-        {
-          "name": "iPad Pro",
-          "qty": 4,
-          "price": 14000000,
-          "userID": 1,
-          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/ipad-air-3-wi-fi-space-gray.jpg",
-          "id": 4
-        },
-        {
-          "name": "iPhone 8",
-          "qty": 1,
-          "price": 5000000,
-          "userID": 1,
-          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-8-gold_4_1_2.jpg",
-          "id": 5
-        },
-        {
-          "name": "iPhone 8",
-          "qty": 3,
-          "price": 5000000,
-          "userID": 1,
-          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-8-gold_4_1_2.jpg",
-          "id": 6
-        }
-      ],
-      "userID": 1,
-      "id": 1
-    },
-    {
-      "date": "14-11-2020",
-      "total": 5000000,
-      "items": [
-        {
-          "name": "iPhone 8",
-          "qty": 1,
-          "price": 5000000,
-          "userID": 1,
-          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-8-gold_4_1_2.jpg",
-          "id": 2
-        }
-      ],
-      "userID": 1,
-      "id": 2
-    },
-    {
-      "date": "14-11-2020",
-      "total": 22000000,
-      "items": [
-        {
-          "name": "iPhone X",
-          "qty": 2,
-          "price": 7000000,
-          "userID": 2,
-          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/iphone-x-space-grey_2_3_4_1.jpg",
-          "id": 2
-        },
-        {
-          "name": "iPhone 12",
-          "qty": 1,
-          "price": 8000000,
-          "userID": 2,
-          "image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/a/ia1910581224451.jpg",
-          "id": 3
-        }
-      ],
-      "userID": 2,
-      "id": 3
-    }
-  ]
+	"users": [
+		{
+			"id": 1,
+			"email": "fikriansyah51@gmail.com",
+			"password": "asd123"
+		},
+		{
+			"id": 2,
+			"email": "fikrikurniawan51@yahoo.co.id",
+			"password": "asd123"
+		},
+		{
+			"email": "abc@gmail.com",
+			"password": "asd",
+			"id": 3
+		},
+		{
+			"email": "1231@gmail.com",
+			"password": "asd",
+			"id": 4
+		},
+		{
+			"email": "123asd@gmail.com",
+			"password": "bTi728ne87_",
+			"id": 5
+		}
+	],
+	"categories": [
+		{
+			"id": 0,
+			"category": "All"
+		},
+		{
+			"id": 1,
+			"category": "iPhone"
+		},
+		{
+			"id": 2,
+			"category": "Macbook"
+		},
+		{
+			"id": 3,
+			"category": "iPad"
+		}
+	],
+	"products": [
+		{
+			"id": 3,
+			"name": "iPhone 12",
+			"categoryID": 1,
+			"price": 15000000,
+			"stock": 5,
+			"image": "https://www.mytrendyphone.eu/images/Puro-0-3-Nude-TPU-Case-for-iPhone-12-Pro-Max-Transparent-8033830296208-16102020-01.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Macbook Pro",
+			"categoryID": 2,
+			"price": 12000000,
+			"stock": 5,
+			"image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp13touch-space-select-202005?wid=904&hei=840&fmt=jpeg&qlt=80&.v=1587460552755"
+		},
+		{
+			"id": 5,
+			"name": "iPad Pro",
+			"categoryID": 3,
+			"price": 14000000,
+			"stock": 5,
+			"image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/6/11/3394b7ab-22af-44dd-894a-5c8d2ad7700d.jpg"
+		},
+		{
+			"name": "iPhone 11",
+			"categoryID": 1,
+			"image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//83/MTA-5101129/apple_apple_iphone_11_256_gb_-garansi_resmi-_full13_sre8jw2y.jpg",
+			"price": 12000000,
+			"stock": 10,
+			"id": 6
+		}
+	],
+	"cart": [
+		{
+			"name": "iPhone 12",
+			"qty": 1,
+			"price": 8000000,
+			"userID": 5,
+			"image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/a/ia1910581224451.jpg",
+			"id": 2
+		},
+		{
+			"name": "iPhone 11",
+			"qty": 1,
+			"price": 17000000,
+			"userID": 5,
+			"image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/a/p/apple_iphone_11_pro_max_silver_new_1.jpg",
+			"id": 3
+		}
+	],
+	"transaction": [
+		{
+			"date": "11-11-2020",
+			"total": 76000000,
+			"items": [
+				{
+					"name": "iPad Pro",
+					"qty": 4,
+					"price": 14000000,
+					"userID": 1,
+					"image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/p/ipad-air-3-wi-fi-space-gray.jpg",
+					"id": 4
+				}
+			],
+			"userID": 1,
+			"id": 1
+		},
+		{
+			"date": "14-11-2020",
+			"total": 5000000,
+			"items": [],
+			"userID": 1,
+			"id": 2
+		},
+		{
+			"date": "14-11-2020",
+			"total": 22000000,
+			"items": [
+				{
+					"name": "iPhone 12",
+					"qty": 1,
+					"price": 8000000,
+					"userID": 2,
+					"image": "https://eraspace.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/i/a/ia1910581224451.jpg",
+					"id": 3
+				}
+			],
+			"userID": 2,
+			"id": 3
+		},
+		{
+			"date": "20-8-2021",
+			"total": 8000000,
+			"items": [
+				{
+					"name": "iPhone 12",
+					"qty": 1,
+					"price": 8000000,
+					"userID": 1,
+					"image": "https://www.mytrendyphone.eu/images/Puro-0-3-Nude-TPU-Case-for-iPhone-12-Pro-Max-Transparent-8033830296208-16102020-01.jpg",
+					"id": 4
+				}
+			],
+			"userID": 1,
+			"id": 4
+		}
+	]
 }
